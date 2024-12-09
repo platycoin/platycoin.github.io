@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+
+    <nav id="menu" class="menu">
+      <header>
+        <section class="menu-section">
+          <h3 class="menu-section-title">Menu</h3>
+          <ul class="menu-section-list">
+              <li><a class="page-link" href="{{site.github.url}}/">Whitepaper</a>
+              <!-- <li><a class="page-link" href="{{site.github.url}}/rishabh_cv.pdf"> CV </a></li> -->
+          </ul>
+        </section>
+      </header>
+    </nav>
+
+
+    <main id="panel">
+      <div class="page-content">
+        <div class="wrapper container">
+          <header>
+            <nav class="site-header">
+              <div class="row">
+                <div class="menu-toggle"><button class="toggle-button"><i class="icon fa fa-bars"></i></button></div>
+
+                <div class="site-title"><a href="/">PLATYCOIN</a></div>
+
+              </div>
+              <div class="desktop-menu">
+                <ul>
+                    <li><a href="{{site.github.url}}/"> About </a></li>
+                    <li><a href="{{site.github.url}}/whitepaper"> Whitepaper </a></li>
+                    <!-- <li><a href="{{site.github.url}}/rishabh_cv.pdf"> CV </a></li> -->
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+
+          {{content}}
+
+        </div>
+
+      </div>
+
+      <div class="invisible-divider"></div>
+      <footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="force seven columns">
+        <ul class="contact-list">
+          <li class="social-links">
+            
+            <a href="https://x.com/platycoinmeme" target="_blank">
+              <i class="fa fa-twitter fa-10x" style="color:#0e76a8"> </i> platycoinmeme
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="force five columns">
+        <p class="site-description">
+          <a href="mailto:platypusmeme@gmail.com" style="color:#211F1F">platypusmeme@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+
+  </body>
+
+</html>
