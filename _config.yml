@@ -5,7 +5,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-name: Tekniker
+name: $PLTY
 url: platycoin.github.io
 enforce_ssl: platycoin.github.io
 description: Platycoin's personal website
