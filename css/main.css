@@ -1345,3 +1345,26 @@ code {
 .prof-summary {
   margin-top: 2em;
 }
+.buy-button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.buy-button:hover {
+      background-color: #0056b3;
+      transform: translateY(-2px)
+}
+
+.buy-button:active {
+      background-color: #003d82;
+      transform: translateY(1px);
+}
